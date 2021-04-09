@@ -15,6 +15,7 @@ class Player(models.Model):
     role = models.CharField(max_length=50)
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
+    games = models.ManyToManyField(Game, related_name="players")
 
 class Admin(models.Model):
     firstName = models.CharField(max_length=30)
