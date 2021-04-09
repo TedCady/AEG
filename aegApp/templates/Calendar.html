@@ -19,28 +19,30 @@
     <link rel="stylesheet" href="static/css/Modern-Contact-Form.css">
     <link rel="stylesheet" href="static/css/Navigation-Clean.css">
     <link rel="stylesheet" href="static/css/styles.css">
+    <link rel="stylesheet" href="static/css/chasestyle.css">
 
     <title>Document</title>
 </head>
-<body>
-    <nav class="navbar navbar-light navbar-expand-md navigation-clean">
-
-        <div class="container"><img src="static/img/Aeg1.jpg" style="width: 50px;"><a class="navbar-brand" href="#">AEG</a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+<body class="black-radial">
+    <nav class="navbar navbar-light navbar-expand-md navigation-clean" style="background-image: linear-gradient(rgb(20, 20, 20), black)">
+        <div class="container"><img src="static/img/Aeg1.jpg" style="width: 50px;"><p style="margin-left: 5px; font-size: 50px; color:#00b140">AEG</p><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
 
             <div class="collapse navbar-collapse" id="navcol-1">
                 <ul class="nav navbar-nav ml-auto">
-                    <li class="nav-item"><a class="nav-link active" href="#">Calendar</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Teams</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Partners</a></li>
-                    <li class="nav-item"><a class="nav-link" href="https://elitedapparel.com/collections/alpha-elite-gaming">Store</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+                    <li class="nav-item"><a style="color: #00b140" class="nav-link" href="/">Home</a></li>
+                    <li class="nav-item"><a style="color: #00b140" class="nav-link active" href="/calendar">Calendar</a></li>
+                    <li class="nav-item"><a style="color: #00b140" class="nav-link" href="/teams">Teams</a></li>
+                    <li class="nav-item"><a style="color: #00b140" class="nav-link" href="/partners">Partners</a></li>
+                    <li class="nav-item"><a style="color: #00b140" class="nav-link" href="https://elitedapparel.com/collections/alpha-elite-gaming">Store</a></li>
+                    <li class="nav-item"><a style="color: #00b140" class="nav-link" href="/contact">Contact</a></li>
                 </ul>
             </div>
         </div>
     </nav>
-
-=======
-    <footer class="justify-content-xl-center" id="footerpad" style="background: rgb(255,255,255);margin-top: 20px;"><img src="static/img/Aeg1.jpg" style="width: 50px;"><a class="navbar-brand" href="#">AEG</a>
+    <div style="display: flex; justify-content: center;">
+        <iframe src="https://calendar.google.com/calendar/embed?src=chaseasmith95%40gmail.com&ctz=America%2FChicago" style="border: 0;opacity: 80%" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+    </div>
+    <footer class="justify-content-xl-center" id="footerpad" style="background-image: linear-gradient(rgb(20, 20, 20), black)"><img src="static/img/Aeg1.jpg" style="width: 50px;"><a class="navbar-brand" href="#">AEG</a>
 
         <div class="container">
             <div class="row">
@@ -56,7 +58,6 @@
                     </ul>
                 </div>
             </div>
-        </div><i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
     </footer>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.3/js/bootstrap.bundle.min.js"></script>
